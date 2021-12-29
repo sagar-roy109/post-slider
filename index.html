@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+
+	<link rel="stylesheet" href="assets/css/splide-core.min.css">
+	<link rel="stylesheet" href="assets/css/splide.min.css">
+	<link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+	<div class="custom-post-slider-sr">
+		<div class="splide">
+			<div class="splide__track">
+				<div class="splide__list">
+					<!-- slide items start  -->
+
+					<!-- slide item  -->
+					<div class="splide__slide">
+						<div class="post-image">
+							<img src="assets/img/Rectangle 30.jpg">
+						</div>
+						<div>
+							<h2 class="post-title">Meld deg på denne nyheten</h2>
+						</div>
+						<div>
+							<p class="post-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+								incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+								laboris nisi ut...</p>
+						</div>
+					</div>
+
+					<!-- slide item  -->
+					<div class="splide__slide">
+						<div class="post-image">
+							<img src="assets/img/Rectangle 30.jpg">
+						</div>
+						<div>
+							<h2 class="post-title">Meld deg på denne nyheten</h2>
+						</div>
+						<div>
+							<p class="post-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+								incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+								laboris nisi ut...</p>
+						</div>
+					</div>
+
+					<!-- slide item  -->
+					<div class="splide__slide">
+						<div class="post-image">
+							<img src="assets/img/Rectangle 30.jpg">
+						</div>
+						<div>
+							<h2 class="post-title">Meld deg på denne nyheten</h2>
+						</div>
+						<div>
+							<p class="post-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+								incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+								laboris nisi ut...</p>
+						</div>
+					</div>
+
+					<!-- slide item  -->
+					<div class="splide__slide">
+						<div class="post-image">
+							<img src="assets/img/Rectangle 30.jpg">
+						</div>
+						<div>
+							<h2 class="post-title">Meld deg på denne nyheten</h2>
+						</div>
+						<div>
+							<p class="post-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+								incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+								laboris nisi ut...</p>
+						</div>
+					</div>
+					<!-- slide item end  -->
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="assets/js/splide.min.js"></script>
+	<script>
+		document.addEventListener('DOMContentLoaded', function () {
+			var splide = new Splide('.splide', {
+				perPage: 3,
+				gap: 40,
+				pagination: false,
+				breakpoints: {
+					1000: {
+						perPage: 3,
+						gap: 50,
+						arrows: false,
+						pagination: true,
+					}
+				},
+				breakpoints: {
+					768: {
+						perPage: 1,
+						gap: 50,
+						arrows: false,
+						pagination: true,
+
+					}
+				},
+
+
+			});
+			splide.mount();
+		});
+	</script>
+</body>
+
+</html>
